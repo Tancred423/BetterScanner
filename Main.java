@@ -4,13 +4,15 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\nNow testing without loop, without message");
         testWithoutMessage(false);
+
         System.out.println("\nNow testing with loop, without message");
         testWithoutMessage(true);
+
         System.out.println("\nNow testing without loop, with message");
         testWithMessage(false);
+
         System.out.println("\nNow testing with loop, with message");
         testWithMessage(true);
-
     }
 
     private static void testWithoutMessage(boolean shouldLoop) {
@@ -48,7 +50,6 @@ public class Main {
 
         System.out.println("Provide a string:");
         System.out.println(YOU_PROVIDED + scanner.nextString());
-
     }
 
     private static void testWithMessage(boolean shouldLoop) {
@@ -86,6 +87,5 @@ public class Main {
 
         System.out.println("Provide a string:");
         System.out.println(YOU_PROVIDED + scanner.nextString());
-
     }
 }
