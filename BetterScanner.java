@@ -18,7 +18,7 @@ public class BetterScanner {
     }
 
     /**
-     * @param shouldLoop Weather or not the scanning functions should loop until
+     * @param shouldLoop Whether or not the scanning functions should loop until
      *                   valid data has been provided.
      */
     public BetterScanner(boolean shouldLoop) {
